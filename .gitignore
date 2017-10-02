@@ -1,6 +1,10 @@
 # OSX
 #
 .DS_Store
+ios/
+
+# VSCode
+.vscode/
 
 # Xcode
 #
