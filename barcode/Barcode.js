@@ -18,7 +18,7 @@ class Barcode extends React.Component {
         return (
             <ZBarCamera 
                 {...this.props} 
-                style={{width: 100, height: 100}} 
+                style={{width: '100%', height: '50%', backgroundColor: 'tomato'}} 
                 onChange={this._onChange} 
             />
         )
